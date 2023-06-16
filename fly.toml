@@ -1,0 +1,8 @@
+# fly.toml file generated for realworld-rails on 2023-06-16T15:07:26-07:00
+
+app = "realworld-rails"
+primary_region = "lax"
+
+[[statics]]
+  guest_path = "/rails/public"
+  url_prefix = "/"
